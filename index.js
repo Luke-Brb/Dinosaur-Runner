@@ -36,7 +36,6 @@ let ballY = tileSize * rows - nextBallDimensions;
 let ballImg;
 let colision = false;
 
-
 //time animation for dinosaur
 let second = 1000;
 let secondsPassed = 0;
@@ -149,7 +148,6 @@ function drawBalls() {
         }
         if (ball.x < - tileSize) {
             ball.alive = false;
-            console.log(" ++ ball.alive");
         }
     }
 }
